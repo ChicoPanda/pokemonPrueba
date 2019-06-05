@@ -1,0 +1,48 @@
+.box {
+  border: 1px solid white;
+  box-shadow: 0 1px 0 1px black, inset 0 1px 0 1px black, 0 0 0 1px black, inset 0 0 0 1px black;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: linear-gradient(to right, yellow, #f3f9a7);
+  padding: 50px;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.box:hover{
+  transform: scale(1.2)
+}
+
+.box1 {
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
+  box-shadow: 0 1px 0 1px black, inset 0 1px 0 1px black, 0 0 0 1px black, inset 0 0 0 1px black;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: red;
+
+}
+
+.listaPokemon{
+
+}
+
+.pokeball{
+  width: 100px;
+  height: 100px;
+}
+.banner{
+  width: 400px;
+  height: 200px;
+}

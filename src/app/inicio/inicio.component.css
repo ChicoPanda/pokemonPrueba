@@ -1,0 +1,54 @@
+*{padding: 0%; margin: 0%;}
+
+html{
+  background-image: url(../../assets/Imagenes/fondoPokemon.jpg);
+  background-size: 100%;
+}
+.cuerpoCompleto{}
+.cabecera{
+  text-align: center;
+
+}
+
+.logo{
+  margin-top: 4%;
+  /*width: 60%; para movil*/
+  width: 30%;
+}
+
+.empezar>img{
+  width: 20%;
+  cursor: pointer;
+}
+
+.cuerpo{
+  text-align: center;
+}
+.imagenIntro{
+  margin-right: 15%;
+}
+
+
+/*ANIMACIONES*/
+.entrarPaginaLenta {
+  opacity: 1;
+  animation: fade 2s infinite;
+}
+
+
+@keyframes fade {
+0%,100% { opacity: 0 }
+50% { opacity: 1 }
+}
+
+.entrarPaginaRapida {
+  opacity: 1;
+  animation: fade1 0.2s infinite;
+}
+
+
+@keyframes fade1 {
+0%,100% { opacity: 0 }
+50% { opacity: 1 }
+}
+

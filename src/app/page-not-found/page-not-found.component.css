@@ -1,0 +1,44 @@
+*{padding:0px;margin: 0px; text-align: center;  }
+
+html{
+  height: 100%;
+  background: #20002c; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #20002c, #cbb4d4); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #20002c, #cbb4d4);
+}
+
+
+.imagenes{
+  padding-top: 3%;
+  display: flex;
+  flex-flow: column ;
+  justify-content: center;
+}
+
+.cementerio{
+  z-index: 1;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  filter: grayscale(100%);
+}
+
+.imagenes>a{
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  width: 100%;
+
+
+ }
+
+.kubone{
+  width: 25%;
+ }
+
+.bocadillo{
+   width: 25%;
+
+  }
